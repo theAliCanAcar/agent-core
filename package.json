@@ -1,0 +1,27 @@
+{
+  "name": "agent-core",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Shared agent interface: createAgent/defineAgent, Model adapter (OpenAI + Mock), tool loop, memory/audit/approval wiring.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "agent-approval": "github:theAliCanAcar/agent-approval#main",
+    "agent-audit": "github:theAliCanAcar/agent-audit#main",
+    "agent-memory": "github:theAliCanAcar/agent-memory#main",
+    "agent-tools": "github:theAliCanAcar/agent-tools#main",
+    "zod": "^3.23.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theAliCanAcar/agent-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theAliCanAcar/agent-core/issues"
+  },
+  "homepage": "https://github.com/theAliCanAcar/agent-core#readme"
+}
